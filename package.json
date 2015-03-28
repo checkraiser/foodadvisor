@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm ./node_modules/lab/bin/lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/checkraiser/foodadvisor"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "Truong Hoang Dung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/checkraiser/foodadvisor/issues"
+  },
+  "homepage": "https://github.com/checkraiser/foodadvisor",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  },
+  "devDependencies": {
+    "joi": "^6.0.8",
+    "lab": "^5.5.1"
+  }
+}
